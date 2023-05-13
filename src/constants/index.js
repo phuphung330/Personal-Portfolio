@@ -17,6 +17,7 @@ import {
     portfolio,
     job,
     education,
+    furnitown,
 } from "../assets";
 
 export const navLinks = [
@@ -166,6 +167,28 @@ const projects = [
         ],
         image: portfolio,
         source_code_link: "https://phuphung-portfolio.vercel.app/",
+    },
+    {
+        name: "Furnitown Landing Page",
+        description:
+            " Furnitown is a full landing website that contains various single pages. that website helps customer have a good insight about products and service that company provided",
+
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: furnitown,
+        source_code_link: "https://phuphung330.github.io/Furnitown/",
     },
     {
         name: "Gbox Studios",
