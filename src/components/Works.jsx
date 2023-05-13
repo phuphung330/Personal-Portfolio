@@ -23,7 +23,7 @@ const ProjectCard = ({
                 glareColor='#ffff'
                 scale={1.1}
                 glarePosition='all'
-                className='bg-tertiary p-5 rounded-2x1 sm:w-[360px] w-full  cursor-pointer'
+                className='bg-tertiary p-5 rounded-2x1 sm:w-[360px] h-full w-full  cursor-pointer'
             >
                 <div className='relative w-full h-[230px]'>
                     <img
@@ -48,7 +48,7 @@ const ProjectCard = ({
                 </div>
                 <div className='mt-5'>
                     <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-                    <p className='line-clamp-6 mt-2 text-secondary text-[14px]'>
+                    <p className='line-clamp-4 mt-2 text-secondary text-[14px]'>
                         {description}
                     </p>
                 </div>
