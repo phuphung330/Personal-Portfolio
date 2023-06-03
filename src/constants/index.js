@@ -1,4 +1,5 @@
 import {
+    spacedev,
     grunt,
     mobile,
     backend,
@@ -147,6 +148,33 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "Spacedev Course",
+        description:
+            "A React website that allows users to look for some online courses, included sign in, sign up,personal page,and lots of things",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: spacedev,
+        source_code_link: "https://spacedev-course.vercel.app/",
+    },
+    ,
     {
         name: "Personal Portfolio",
         description:

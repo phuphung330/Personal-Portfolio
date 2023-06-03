@@ -33,8 +33,10 @@ import wooder from "./wooder.png";
 import portfolio from "./portfolio.png";
 
 import gbox from "./gbox.png";
+import spacedev from "./spacedev.png";
 
 export {
+    spacedev,
     furnitown,
     job,
     education,
